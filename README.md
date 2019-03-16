@@ -35,4 +35,4 @@ The 09_output folder stores all the figure outputs to be used in the paper.
 The threshold computation in 01_threshold/01_common requires some explanation to understand. Thus, "computation.pdf" explains the code in detail.
 
 ## Computational times
-Most codes can be executed in a reasonable time frame below 20 minutes using a 8.00GB RAM and i5-7200U CPU @ 2.50GHz 2.71GHz computer. An exception is the threshold computation in `high_N.m` that takes roughly 2 days using ... computer. Thus, the outputs are stored in the `intermediate_data` folder.
+Most codes can be executed in a reasonable time frame below 20 minutes using a 8.00GB RAM and i5-7200U CPU @ 2.50GHz 2.71GHz computer. An exception is the threshold computation in `high_N.m` that takes roughly 2 days using a 16.00GB RAM and i7-5600U CPU @ 2.60GHz 2.60GHz  computer. Due to this computational burden, the computational outputs are stored in the `intermediate_data` folder before turned into figures.
